@@ -1,11 +1,6 @@
 b = 99 ;
 
-#99 bottles of beer on the wall, 99 bottles of beer.
-#Take one down and pass it around, 98 bottles of beer on the wall.//
-#1 bottle of beer on the wall, 1 bottle of beer.
-#Take one down and pass it around, no more bottles of beer on the wall.
-#No more bottles of beer on the wall, no more bottles of beer. 
-#Go to the store and buy some more, 99 bottles of beer on the wall.
+#using a while loop to publish the sentences. once b=1 we chenge the sentence as bottles move to bottle. Last sentence is out of the loop.
 while b >0  :
 	if b==1:
 		print str(b)+" bottle of beer on the wall, "+str(b)+" bottle of beer.";
